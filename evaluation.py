@@ -19,7 +19,7 @@ from source.inception.inception_score import inception_score, Inception
 from source.links.sn_convolution_2d import SNConvolution2D
 from source.functions.max_sv import max_singular_value
 from numpy.linalg import svd
-
+print('a')
 
 def gen_images(gen, n=50000, batchsize=100):
     ims = []
